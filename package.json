@@ -1,5 +1,5 @@
 {
-  "version": "0.1.1",
+  "version": "1.0.0",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -10,8 +10,7 @@
     "start": "tsdx watch",
     "build": "tsdx build",
     "test": "tsdx test",
-    "lint": "tsdx lint",
-    "prepare": "tsdx build"
+    "lint": "tsdx lint"
   },
   "peerDependencies": {},
   "husky": {
@@ -20,12 +19,12 @@
     }
   },
   "prettier": {
-    "printWidth": 80,
+    "printWidth": 120,
     "semi": true,
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "cookie-meta",
+  "name": "cookie-maker",
   "author": "Vien Dinh",
   "module": "dist/uni-cookie.esm.js",
   "devDependencies": {
